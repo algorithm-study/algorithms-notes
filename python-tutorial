@@ -65,3 +65,4 @@ a = {} # 空dictionary
 
 a[*key*] = *value* # 给a的key赋值value
 b = a[*key*] # 让b等于a中key的value
+```
