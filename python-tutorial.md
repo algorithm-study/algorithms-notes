@@ -49,6 +49,25 @@ for i in range(len(a)):
 range()是一个函数，用于返回一个包含一个范围的数值的数组
 比如range(5)返回[0, 1, 2, 3, 4]
 
+
+## 列表推导式
+
+列表推导式(List Comprehensions)提供了一种简洁优雅地创建列表的方法。
+举例，为了生成从0到9的所有数的平方，直觉是用for循环来做：
+```python
+squares = []
+for x in range(10):
+    squares.append(x**2)
+```
+可以看到，这么简单的一个功能就要写三行代码，非常繁琐，下面使用列表推导式：
+```python
+squares = [x**2 for x in range(10)]
+```
+
+> [python docs] (https://docs.python.org/2/tutorial/datastructures.html)
+
+
+
 ## 常用数据结构
 
 ### 数组 (List)
