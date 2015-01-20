@@ -1,7 +1,7 @@
-# Python Quick Tutorial
+#Python Quick Tutorial
 本文介绍Python用于解决算法问题的基础
 
-## 赋值
+##赋值
 Python给变量赋值的时候不需要指定变量类型
 ```python
 x = 1 # 整数
@@ -11,7 +11,7 @@ x = [1, 2, 3] # 数组 (List)
 x = {'a': 1, 'b', 2} # 哈希表
 ```
 
-## if else
+##if else
 基本结构:
 ```python
 if *condition*:
