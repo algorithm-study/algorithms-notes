@@ -1,7 +1,7 @@
 ### 算法笔记
 
 目录
-## 简介
+## [Python简介]https://github.com/algorithm-study/algorithms-notes/blob/master/python-tutorial.md)
 ## 数据结构
 ### 数组 (List, Array)
 ### 链表 (Linked List)
