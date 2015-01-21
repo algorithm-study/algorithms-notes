@@ -113,7 +113,23 @@ Python内置的 `collections.deque` 类提供了快速从首部和尾部弹出�
 deque([5, 6])
 ```
 
+### 集合(Set)
+集合在Python中是一种无序的数据结构，它的特性即是不允许存在重复的元素，常见的用途为**判断存在性**(效率很高）以及**剔除重复元素**。
 
+```python
+>>> a = set([1, 2, 3, 4, 5, 5])
+>>> b = set([3, 4, 5, 6, 7, 7])
+>>> a                                  # unique letters in a
+set([1, 2, 3, 4, 5])
+>>> a - b                              # values in a but not in b
+set([1, 2])
+>>> a | b                              # values in either a or b
+set([1, 2, 3, 4, 5, 6, 7])
+>>> a & b                              # values in both a and b
+set([3, 4, 5])
+>>> a ^ b                              # values in a or b but not both
+set([1, 2, 6, 7])
+```
 
 
 ### 哈希表 (字典/Hash Table/Dictionary)
