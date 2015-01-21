@@ -77,6 +77,26 @@ a = [] # 空数组
 a = [1, 2, 3]  # 有三个整数的数组
 ```
 
+### 堆栈(Stack)
+堆栈的特性是先入后出，可以使用List的 `append()` 以及 `pop()` 函数（默认弹出最后一个元素）来实现堆栈。
+```python
+>>> stack = [3, 4, 5]
+>>> stack.append(6)
+>>> stack
+[3, 4, 5, 6]
+>>> stack.pop()
+6
+>>> stack
+[3, 4, 5]
+>>> stack.pop()
+5
+>>> stack.pop()
+4
+>>> stack
+[3]
+
+```
+
 ### 哈希表 (字典/Hash Table/Dictionary)
 哈希表在Python中就是dictionary，用来存储key-value pair
 ```python
