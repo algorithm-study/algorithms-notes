@@ -97,6 +97,25 @@ a = [1, 2, 3]  # 有三个整数的数组
 
 ```
 
+
+### 队列(Queue)
+队列的特性是先入先出，虽然同样可以使用List 的 `pop(0)` 来实现队列从首部取元素的功能，但是此操作的时间复杂度为 `O(n)`，效率不高。
+Python内置的 `collections.deque` 类提供了快速从首部和尾部弹出元素的方法，可以使用它来实现队列。
+```python
+>>> from collections import deque
+>>> queue = deque([3, 4, 5])
+>>> queue.append(6)
+>>> queue.popleft()
+3
+>>> queue.popleft()
+4
+>>> queue
+deque([5, 6])
+```
+
+
+
+
 ### 哈希表 (字典/Hash Table/Dictionary)
 哈希表在Python中就是dictionary，用来存储key-value pair
 ```python
